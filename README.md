@@ -21,7 +21,6 @@ Currently supported models:
 ## Download
 
 * [Google Play](https://play.google.com/store/apps/details?id=eu.darken.capod)
-* [GitHub](https://github.com/d4rken/capod-public/releases/latest)
 
 ## Support the project
 
