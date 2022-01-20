@@ -1,16 +1,22 @@
-# Privacy policy for the app `CAPod - Companion for AirPods`
+# Privacy policy
+This is the privacy policy for the Android app "CAPod - Companion for AirPods".
 
 ## Preamble
+CAPod respects your privacy.
 
-I do not collect, share, sell or otherwise monetize personal information.
-
-My underlying privacy principle is the [Golden Rule](https://en.wikipedia.org/wiki/Golden_Rule).
+I do not collect, share or sell personal information.
 
 Send a [quick mail](mailto:support@darken.eu) if you have questions.
 
+My underlying privacy principle is the [Golden Rule](https://en.wikipedia.org/wiki/Golden_Rule).
+
 ## Location data
 
-`CAPod - Companion for AirPods` does not determine your location and does not collect, share or sell location data.
+CAPod does not collect, share or sell location data.
+
+CAPod uses the permission "access fine location" (`ACCESS_FINE_LOCATION`) to enable its core functionality on Android 11 and lower.
+The "access fine location" permission is required to scan for Bluetooth Low Energy (BLE) devices.
+On Android 12+ the newer and more fine grained `BLUETOOTH_SCAN` permission is used instead.
 
 Bluetooth Low Energy is a technology that devices like AirPods use to communicate their status to nearby devices.
 CAPod requests location related permission because these permissions are required to access Bluetooth Low Energy data.
@@ -18,10 +24,9 @@ CAPod requests location related permission because these permissions are require
 This is a privacy measure on Android's side because you could determine someones location by scanning for Bluetooth devices:
 If you know the physical location of a Bluetooth device (e.g. AirTags) you can use Bluetooth data to calculate your phones position.
 
-To be able to scan for Bluetooth Low Energy (BLE) devices CAPod requests:
-`ACCESS_FINE_LOCATION` on Android 11 and older, and on Android 12+ the newer more fine grained `BLUETOOTH_SCAN` permission.
+### Location access in the background
 
-On Android 11 and older CAPod also requests `ACCESS_BACKGROUND_LOCATION` to reliably receive Bluetooth Low Energy data while the app is in the background. This allows CAPod to show you notification with device details when you open your AirPods case without having to open the app. 
+CAPod uses the "location access in the backgroundd" permission (`ACCESS_BACKGROUND_LOCATION`) on Android 11 and older to receive Bluetooth Low Energy data while the app is in the background. This enables features like "Show popup" without the app being open.
 
 ## Automatic crash reports
 
