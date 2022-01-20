@@ -25,7 +25,7 @@ If you know the physical location of a Bluetooth device (e.g. AirTags) you could
 
 ### Location access in the background
 
-CAPod uses the "location access in the background" permission (`ACCESS_BACKGROUND_LOCATION`) on Android 11 and older to receive Bluetooth Low Energy data while the app is in the background. This permission enables the "Show popup" and "Autoconnect" features and allows CAPod to react to nearby devices without the app being open.
+CAPod uses the "location access in the background" permission (`ACCESS_BACKGROUND_LOCATION`) on Android 11 and older to receive Bluetooth Low Energy data while the app is in the background. This permission enables the "Show popup" and "Autoconnect" features and allows CAPod to react to nearby devices whil the app is closed.
 
 ## Automatic crash reports
 
