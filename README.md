@@ -2,6 +2,8 @@
 
 # Companion App for AirPods (CAPod) 
 
+[![Crowdin](https://badges.crowdin.net/capod/localized.svg)](https://crowdin.com/project/capod)
+
 A companion app that adds support for AirPod specific features to Android.
 
 Currently supported models:
