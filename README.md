@@ -2,8 +2,6 @@
 
 # Companion App for AirPods (CAPod) 
 
-[![Github All Releases](https://img.shields.io/github/downloads/d4rken/capod-public/total.svg)](https://github.com/d4rken/capod-public/releases/latest)
-
 A companion app that adds support for AirPod specific features to Android.
 
 Currently supported models:
