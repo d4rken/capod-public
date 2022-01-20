@@ -14,8 +14,8 @@ My underlying privacy principle is the [Golden Rule](https://en.wikipedia.org/wi
 
 CAPod does not collect, share or sell location data.
 
-CAPod uses the permission "access fine location" (`ACCESS_FINE_LOCATION`) to enable its core functionality on Android 11 and lower.
-The "access fine location" permission is required to scan for Bluetooth Low Energy (BLE) devices.
+The location permissions are required to scan for Bluetooth Low Energy (BLE) devices.
+CAPod uses the permission "access fine location" (`ACCESS_FINE_LOCATION`) and "access coarse location" (`ACCESS_COARSE_LOCATION`) to enable its core functionality on Android 11 and lower.
 On Android 12+ the newer and more fine grained `BLUETOOTH_SCAN` permission is used instead.
 
 Bluetooth Low Energy is a technology that devices like AirPods use to communicate their status to nearby devices.
@@ -26,7 +26,7 @@ If you know the physical location of a Bluetooth device (e.g. AirTags) you can u
 
 ### Location access in the background
 
-CAPod uses the "location access in the backgroundd" permission (`ACCESS_BACKGROUND_LOCATION`) on Android 11 and older to receive Bluetooth Low Energy data while the app is in the background. This enables features like "Show popup" without the app being open.
+CAPod uses the "location access in the background" permission (`ACCESS_BACKGROUND_LOCATION`) on Android 11 and older to receive Bluetooth Low Energy data while the app is in the background. This enables features like "Show popup" without the app being open.
 
 ## Automatic crash reports
 
