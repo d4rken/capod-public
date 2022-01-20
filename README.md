@@ -9,8 +9,9 @@ A companion app that adds support for AirPod specific features to Android.
 
 Currently supported models:
 
-* AirPods Gen1
-* AirPods Gen2
+* AirPods 1. Generation
+* AirPods 2. Generation
+* AirPods 3. Generation
 * AirPods Pro
 * AirPods Max
 * Power Beats Pro
